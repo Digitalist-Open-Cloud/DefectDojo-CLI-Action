@@ -2,7 +2,7 @@
 
 This Github Action uses the [DefectDojo CLI](https://github.com/Digitalist-Open-Cloud/DefectDojo-CLI) to upload test results to a DefectDojo instance.
 
-The action tuns the command `defectdojo reimport_scan upload ARGS`
+The action runs the command `defectdojo reimport_scan upload ARGS`
 
 (ARGS being what you provide in the action as arguments)
 
