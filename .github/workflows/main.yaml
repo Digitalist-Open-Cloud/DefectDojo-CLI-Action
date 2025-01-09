@@ -11,4 +11,4 @@ jobs:
         id: dd
         uses: ./ # Uses an action in the root directory
         with:
-          command: '--help'
+          arguments: '--help'

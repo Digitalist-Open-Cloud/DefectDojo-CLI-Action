@@ -2,8 +2,8 @@
 name: 'DefectDojo'
 description: 'Using DefectDojo CLI'
 inputs:
-  command:  # id of input
-    description: 'Command to run'
+  arguments:  # id of input
+    description: 'Arguments to add'
     required: false
 outputs:
   response:
@@ -16,4 +16,4 @@ runs:
     INPUT_DEFECTDOJO_URL: ${{ inputs.defectdojo_url }}
     INPUT_DEFECTDOJO_ENDPOINT: ${{ inputs.defectdojo_endpoint }}
   args:
-    - ${{ inputs.command }}
+    - ${{ inputs.arguments }}
