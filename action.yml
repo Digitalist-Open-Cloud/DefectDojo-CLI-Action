@@ -11,9 +11,5 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  env:
-    INPUT_TOKEN: ${{ inputs.token }}
-    INPUT_DEFECTDOJO_URL: ${{ inputs.defectdojo_url }}
-    INPUT_DEFECTDOJO_ENDPOINT: ${{ inputs.defectdojo_endpoint }}
   args:
     - ${{ inputs.arguments }}
