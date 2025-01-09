@@ -1,5 +1,5 @@
 # action.yml
-name: 'DefectDojo'
+name: 'DefectDojoCLI upload'
 description: 'Using DefectDojo CLI'
 inputs:
   arguments:  # id of input
