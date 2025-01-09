@@ -4,8 +4,7 @@ description: 'Using DefectDojo CLI'
 inputs:
   command:  # id of input
     description: 'Command to run'
-    required: true
-    default: '--help'
+    required: false
 outputs:
   response:
     description: 'DefectDojo publish result'
