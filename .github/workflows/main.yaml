@@ -3,7 +3,7 @@ on: [push]
 jobs:
   dd:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Simple test of action
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -12,6 +12,3 @@ jobs:
         uses: ./ # Uses an action in the root directory
         with:
           command: '--help'
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "Response ${{ steps.dd.outputs.response }}"
